@@ -2110,7 +2110,7 @@
         <BaseClass>PlanBase</BaseClass>
         <Coordinate Sequence="1" X="32" Y="32" Weight="0" />
         <Coordinate Sequence="2" X="352" Y="64" Weight="0" />
-        <PlanRule Name="Draw Coin Inventory" Sequence="1" Type="Do" Function="DrawCounterAsTile" Parameter1="32" Parameter2="Counter.Coins" Parameter3="PlanBase.DrawStyle.RepeatRightToCounter" EndIf="false" Suspended="false" />
+        <PlanRule Name="Draw Coin Inventory" Sequence="1" Type="Do" Function="DrawCounterAsTile" Parameter1="9" Parameter2="Counter.Coins" Parameter3="PlanBase.DrawStyle.RepeatRightToCounter" EndIf="false" Suspended="false" />
       </SpritePlan>
     </Layer>
   </Map>
